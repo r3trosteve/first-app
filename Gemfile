@@ -8,6 +8,13 @@ gem 'rails', '3.2.15'
 group :production do
   gem 'pg'
 end
+<<<<<<< HEAD
+=======
+
+group :development do
+  gem 'sqlite3'
+end
+>>>>>>> 40c1573479420931b27877c655b2afab43032563
 
 group :development do
   gem 'sqlite3'
